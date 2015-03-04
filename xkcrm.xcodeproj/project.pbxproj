@@ -1,0 +1,656 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1694F0041A933B9700AA2E99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1694F0031A933B9700AA2E99 /* AppDelegate.swift */; };
+		1694F0061A933B9700AA2E99 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1694F0051A933B9700AA2E99 /* ViewController.swift */; };
+		1694F0091A933B9700AA2E99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1694F0071A933B9700AA2E99 /* Main.storyboard */; };
+		1694F00B1A933B9700AA2E99 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1694F00A1A933B9700AA2E99 /* Images.xcassets */; };
+		1694F00E1A933B9700AA2E99 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1694F00C1A933B9700AA2E99 /* LaunchScreen.xib */; };
+		1694F01A1A933B9700AA2E99 /* xkcrmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1694F0191A933B9700AA2E99 /* xkcrmTests.swift */; };
+		16BEC1B91A9B18DA00BC53DD /* LeadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BEC1B81A9B18DA00BC53DD /* LeadViewController.swift */; };
+		16BEC1C01A9B1D3600BC53DD /* MainNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BEC1BF1A9B1D3600BC53DD /* MainNavViewController.swift */; };
+		16BEC1C51A9B211C00BC53DD /* CustomMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BEC1C21A9B211C00BC53DD /* CustomMenuController.swift */; };
+		16BEC1C61A9B211C00BC53DD /* DrawerMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BEC1C31A9B211C00BC53DD /* DrawerMenuController.swift */; };
+		16BEC1C71A9B211C00BC53DD /* DrawerMenuExplain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BEC1C41A9B211C00BC53DD /* DrawerMenuExplain.swift */; };
+		16BEC1DD1A9B212C00BC53DD /* CVCalendarContentDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BEC1C91A9B212C00BC53DD /* CVCalendarContentDelegate.swift */; };
+		16BEC1DE1A9B212C00BC53DD /* CVCalendarContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BEC1CA1A9B212C00BC53DD /* CVCalendarContentViewController.swift */; };
+		16BEC1DF1A9B212C00BC53DD /* CVCalendarDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BEC1CB1A9B212C00BC53DD /* CVCalendarDayView.swift */; };
+		16BEC1E01A9B212C00BC53DD /* CVCalendarDayViewControlCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BEC1CC1A9B212C00BC53DD /* CVCalendarDayViewControlCoordinator.swift */; };
+		16BEC1E11A9B212C00BC53DD /* CVCalendarManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BEC1CD1A9B212C00BC53DD /* CVCalendarManager.swift */; };
+		16BEC1E21A9B212C00BC53DD /* CVCalendarMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BEC1CE1A9B212C00BC53DD /* CVCalendarMenuView.swift */; };
+		16BEC1E31A9B212C00BC53DD /* CVCalendarMonthContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BEC1CF1A9B212C00BC53DD /* CVCalendarMonthContentView.swift */; };
+		16BEC1E41A9B212C00BC53DD /* CVCalendarMonthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BEC1D01A9B212C00BC53DD /* CVCalendarMonthView.swift */; };
+		16BEC1E51A9B212C00BC53DD /* CVCalendarRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BEC1D11A9B212C00BC53DD /* CVCalendarRenderer.swift */; };
+		16BEC1E61A9B212C00BC53DD /* CVCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BEC1D21A9B212C00BC53DD /* CVCalendarView.swift */; };
+		16BEC1E71A9B212C00BC53DD /* CVCalendarViewAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BEC1D31A9B212C00BC53DD /* CVCalendarViewAnimator.swift */; };
+		16BEC1E81A9B212C00BC53DD /* CVCalendarViewAnimatorDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BEC1D41A9B212C00BC53DD /* CVCalendarViewAnimatorDelegate.swift */; };
+		16BEC1E91A9B212C00BC53DD /* CVCalendarViewAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BEC1D51A9B212C00BC53DD /* CVCalendarViewAppearance.swift */; };
+		16BEC1EA1A9B212C00BC53DD /* CVCalendarViewAppearanceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BEC1D61A9B212C00BC53DD /* CVCalendarViewAppearanceDelegate.swift */; };
+		16BEC1EB1A9B212C00BC53DD /* CVCalendarViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BEC1D71A9B212C00BC53DD /* CVCalendarViewDelegate.swift */; };
+		16BEC1EC1A9B212C00BC53DD /* CVCalendarWeekContentRecovery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BEC1D81A9B212C00BC53DD /* CVCalendarWeekContentRecovery.swift */; };
+		16BEC1ED1A9B212C00BC53DD /* CVCalendarWeekContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BEC1D91A9B212C00BC53DD /* CVCalendarWeekContentView.swift */; };
+		16BEC1EE1A9B212C00BC53DD /* CVCalendarWeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BEC1DA1A9B212C00BC53DD /* CVCalendarWeekView.swift */; };
+		16BEC1EF1A9B212C00BC53DD /* CVCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BEC1DB1A9B212C00BC53DD /* CVCircleView.swift */; };
+		16BEC1F01A9B212C00BC53DD /* CVDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BEC1DC1A9B212C00BC53DD /* CVDate.swift */; };
+		16BEC1F21A9B216B00BC53DD /* MainCalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BEC1F11A9B216B00BC53DD /* MainCalendarViewController.swift */; };
+		16BEC1F41A9B246500BC53DD /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BEC1F31A9B246500BC53DD /* MainViewController.swift */; };
+		16BEC1F61A9B254900BC53DD /* partnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BEC1F51A9B254900BC53DD /* partnerViewController.swift */; };
+		16BEC1F81A9B255500BC53DD /* phonecallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BEC1F71A9B255500BC53DD /* phonecallViewController.swift */; };
+		16BEC1FA1A9B258C00BC53DD /* opportunityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BEC1F91A9B258C00BC53DD /* opportunityViewController.swift */; };
+		16BEC1FE1A9C479100BC53DD /* NavTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BEC1FD1A9C479100BC53DD /* NavTableViewCell.swift */; };
+		16D712601A9DA9E80051D0FA /* Couchbasesrv.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D7125C1A9DA9E80051D0FA /* Couchbasesrv.pb.swift */; };
+		16D712611A9DA9E80051D0FA /* Nosqldb.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D7125D1A9DA9E80051D0FA /* Nosqldb.pb.swift */; };
+		16D712621A9DA9E80051D0FA /* Packmsg.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D7125E1A9DA9E80051D0FA /* Packmsg.pb.swift */; };
+		16D712631A9DA9E80051D0FA /* Xkcrm.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D7125F1A9DA9E80051D0FA /* Xkcrm.pb.swift */; };
+		16D712711A9DA9F00051D0FA /* AbstractMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D712651A9DA9F00051D0FA /* AbstractMessage.swift */; };
+		16D712721A9DA9F00051D0FA /* CodedInputStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D712661A9DA9F00051D0FA /* CodedInputStream.swift */; };
+		16D712731A9DA9F00051D0FA /* CodedOutputStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D712671A9DA9F00051D0FA /* CodedOutputStream.swift */; };
+		16D712741A9DA9F00051D0FA /* ConcreateExtensionField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D712681A9DA9F00051D0FA /* ConcreateExtensionField.swift */; };
+		16D712751A9DA9F00051D0FA /* ExtendableMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D712691A9DA9F00051D0FA /* ExtendableMessage.swift */; };
+		16D712761A9DA9F00051D0FA /* ExtensionRegistry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D7126A1A9DA9F00051D0FA /* ExtensionRegistry.swift */; };
+		16D712771A9DA9F00051D0FA /* Field.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D7126B1A9DA9F00051D0FA /* Field.swift */; };
+		16D712781A9DA9F00051D0FA /* GeneratedMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D7126C1A9DA9F00051D0FA /* GeneratedMessage.swift */; };
+		16D712791A9DA9F00051D0FA /* RingBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D7126D1A9DA9F00051D0FA /* RingBuffer.swift */; };
+		16D7127A1A9DA9F00051D0FA /* UnknownFieldSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D7126E1A9DA9F00051D0FA /* UnknownFieldSet.swift */; };
+		16D7127B1A9DA9F00051D0FA /* UnknownFieldSetBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D7126F1A9DA9F00051D0FA /* UnknownFieldSetBuilder.swift */; };
+		16D7127C1A9DA9F00051D0FA /* WireFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D712701A9DA9F00051D0FA /* WireFormat.swift */; };
+		16D712831A9DB0CB0051D0FA /* LeadTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D712821A9DB0CB0051D0FA /* LeadTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1694F0141A933B9700AA2E99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1694EFF61A933B9700AA2E99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1694EFFD1A933B9700AA2E99;
+			remoteInfo = xkcrm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1694EFFE1A933B9700AA2E99 /* xkcrm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xkcrm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1694F0021A933B9700AA2E99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1694F0031A933B9700AA2E99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1694F0051A933B9700AA2E99 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1694F0081A933B9700AA2E99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1694F00A1A933B9700AA2E99 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1694F00D1A933B9700AA2E99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1694F0131A933B9700AA2E99 /* xkcrmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xkcrmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1694F0181A933B9700AA2E99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1694F0191A933B9700AA2E99 /* xkcrmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xkcrmTests.swift; sourceTree = "<group>"; };
+		16BEC1B81A9B18DA00BC53DD /* LeadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeadViewController.swift; sourceTree = "<group>"; };
+		16BEC1BF1A9B1D3600BC53DD /* MainNavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainNavViewController.swift; sourceTree = "<group>"; };
+		16BEC1C21A9B211C00BC53DD /* CustomMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomMenuController.swift; sourceTree = "<group>"; };
+		16BEC1C31A9B211C00BC53DD /* DrawerMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawerMenuController.swift; sourceTree = "<group>"; };
+		16BEC1C41A9B211C00BC53DD /* DrawerMenuExplain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawerMenuExplain.swift; sourceTree = "<group>"; };
+		16BEC1C91A9B212C00BC53DD /* CVCalendarContentDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVCalendarContentDelegate.swift; sourceTree = "<group>"; };
+		16BEC1CA1A9B212C00BC53DD /* CVCalendarContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVCalendarContentViewController.swift; sourceTree = "<group>"; };
+		16BEC1CB1A9B212C00BC53DD /* CVCalendarDayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVCalendarDayView.swift; sourceTree = "<group>"; };
+		16BEC1CC1A9B212C00BC53DD /* CVCalendarDayViewControlCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVCalendarDayViewControlCoordinator.swift; sourceTree = "<group>"; };
+		16BEC1CD1A9B212C00BC53DD /* CVCalendarManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVCalendarManager.swift; sourceTree = "<group>"; };
+		16BEC1CE1A9B212C00BC53DD /* CVCalendarMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVCalendarMenuView.swift; sourceTree = "<group>"; };
+		16BEC1CF1A9B212C00BC53DD /* CVCalendarMonthContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVCalendarMonthContentView.swift; sourceTree = "<group>"; };
+		16BEC1D01A9B212C00BC53DD /* CVCalendarMonthView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVCalendarMonthView.swift; sourceTree = "<group>"; };
+		16BEC1D11A9B212C00BC53DD /* CVCalendarRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVCalendarRenderer.swift; sourceTree = "<group>"; };
+		16BEC1D21A9B212C00BC53DD /* CVCalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVCalendarView.swift; sourceTree = "<group>"; };
+		16BEC1D31A9B212C00BC53DD /* CVCalendarViewAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVCalendarViewAnimator.swift; sourceTree = "<group>"; };
+		16BEC1D41A9B212C00BC53DD /* CVCalendarViewAnimatorDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVCalendarViewAnimatorDelegate.swift; sourceTree = "<group>"; };
+		16BEC1D51A9B212C00BC53DD /* CVCalendarViewAppearance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVCalendarViewAppearance.swift; sourceTree = "<group>"; };
+		16BEC1D61A9B212C00BC53DD /* CVCalendarViewAppearanceDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVCalendarViewAppearanceDelegate.swift; sourceTree = "<group>"; };
+		16BEC1D71A9B212C00BC53DD /* CVCalendarViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVCalendarViewDelegate.swift; sourceTree = "<group>"; };
+		16BEC1D81A9B212C00BC53DD /* CVCalendarWeekContentRecovery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVCalendarWeekContentRecovery.swift; sourceTree = "<group>"; };
+		16BEC1D91A9B212C00BC53DD /* CVCalendarWeekContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVCalendarWeekContentView.swift; sourceTree = "<group>"; };
+		16BEC1DA1A9B212C00BC53DD /* CVCalendarWeekView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVCalendarWeekView.swift; sourceTree = "<group>"; };
+		16BEC1DB1A9B212C00BC53DD /* CVCircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVCircleView.swift; sourceTree = "<group>"; };
+		16BEC1DC1A9B212C00BC53DD /* CVDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVDate.swift; sourceTree = "<group>"; };
+		16BEC1F11A9B216B00BC53DD /* MainCalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCalendarViewController.swift; sourceTree = "<group>"; };
+		16BEC1F31A9B246500BC53DD /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		16BEC1F51A9B254900BC53DD /* partnerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = partnerViewController.swift; sourceTree = "<group>"; };
+		16BEC1F71A9B255500BC53DD /* phonecallViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = phonecallViewController.swift; sourceTree = "<group>"; };
+		16BEC1F91A9B258C00BC53DD /* opportunityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = opportunityViewController.swift; sourceTree = "<group>"; };
+		16BEC1FD1A9C479100BC53DD /* NavTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavTableViewCell.swift; sourceTree = "<group>"; };
+		16D7125C1A9DA9E80051D0FA /* Couchbasesrv.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Couchbasesrv.pb.swift; sourceTree = "<group>"; };
+		16D7125D1A9DA9E80051D0FA /* Nosqldb.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Nosqldb.pb.swift; sourceTree = "<group>"; };
+		16D7125E1A9DA9E80051D0FA /* Packmsg.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Packmsg.pb.swift; sourceTree = "<group>"; };
+		16D7125F1A9DA9E80051D0FA /* Xkcrm.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Xkcrm.pb.swift; sourceTree = "<group>"; };
+		16D712651A9DA9F00051D0FA /* AbstractMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbstractMessage.swift; sourceTree = "<group>"; };
+		16D712661A9DA9F00051D0FA /* CodedInputStream.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodedInputStream.swift; sourceTree = "<group>"; };
+		16D712671A9DA9F00051D0FA /* CodedOutputStream.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodedOutputStream.swift; sourceTree = "<group>"; };
+		16D712681A9DA9F00051D0FA /* ConcreateExtensionField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConcreateExtensionField.swift; sourceTree = "<group>"; };
+		16D712691A9DA9F00051D0FA /* ExtendableMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtendableMessage.swift; sourceTree = "<group>"; };
+		16D7126A1A9DA9F00051D0FA /* ExtensionRegistry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionRegistry.swift; sourceTree = "<group>"; };
+		16D7126B1A9DA9F00051D0FA /* Field.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Field.swift; sourceTree = "<group>"; };
+		16D7126C1A9DA9F00051D0FA /* GeneratedMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneratedMessage.swift; sourceTree = "<group>"; };
+		16D7126D1A9DA9F00051D0FA /* RingBuffer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RingBuffer.swift; sourceTree = "<group>"; };
+		16D7126E1A9DA9F00051D0FA /* UnknownFieldSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnknownFieldSet.swift; sourceTree = "<group>"; };
+		16D7126F1A9DA9F00051D0FA /* UnknownFieldSetBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnknownFieldSetBuilder.swift; sourceTree = "<group>"; };
+		16D712701A9DA9F00051D0FA /* WireFormat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WireFormat.swift; sourceTree = "<group>"; };
+		16D712821A9DB0CB0051D0FA /* LeadTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LeadTableViewCell.swift; path = ../LeadTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1694EFFB1A933B9700AA2E99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1694F0101A933B9700AA2E99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1694EFF51A933B9700AA2E99 = {
+			isa = PBXGroup;
+			children = (
+				1694F0001A933B9700AA2E99 /* xkcrm */,
+				1694F0161A933B9700AA2E99 /* xkcrmTests */,
+				1694EFFF1A933B9700AA2E99 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1694EFFF1A933B9700AA2E99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1694EFFE1A933B9700AA2E99 /* xkcrm.app */,
+				1694F0131A933B9700AA2E99 /* xkcrmTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1694F0001A933B9700AA2E99 /* xkcrm */ = {
+			isa = PBXGroup;
+			children = (
+				16BEC1B71A9B18B000BC53DD /* VC */,
+				1694F0031A933B9700AA2E99 /* AppDelegate.swift */,
+				1694F0051A933B9700AA2E99 /* ViewController.swift */,
+				1694F0071A933B9700AA2E99 /* Main.storyboard */,
+				1694F00A1A933B9700AA2E99 /* Images.xcassets */,
+				1694F00C1A933B9700AA2E99 /* LaunchScreen.xib */,
+				1694F0011A933B9700AA2E99 /* Supporting Files */,
+				16BEC1FD1A9C479100BC53DD /* NavTableViewCell.swift */,
+				16D712821A9DB0CB0051D0FA /* LeadTableViewCell.swift */,
+			);
+			path = xkcrm;
+			sourceTree = "<group>";
+		};
+		1694F0011A933B9700AA2E99 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1694F0021A933B9700AA2E99 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1694F0161A933B9700AA2E99 /* xkcrmTests */ = {
+			isa = PBXGroup;
+			children = (
+				1694F0191A933B9700AA2E99 /* xkcrmTests.swift */,
+				1694F0171A933B9700AA2E99 /* Supporting Files */,
+			);
+			path = xkcrmTests;
+			sourceTree = "<group>";
+		};
+		1694F0171A933B9700AA2E99 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1694F0181A933B9700AA2E99 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		16BEC1B71A9B18B000BC53DD /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				16D712641A9DA9F00051D0FA /* runtime-pb-swift */,
+				16D7125B1A9DA9E80051D0FA /* swiftproto */,
+				16BEC1C81A9B212C00BC53DD /* CVCalendar */,
+				16BEC1C11A9B211C00BC53DD /* menu */,
+				16BEC1B81A9B18DA00BC53DD /* LeadViewController.swift */,
+				16BEC1BF1A9B1D3600BC53DD /* MainNavViewController.swift */,
+				16BEC1F11A9B216B00BC53DD /* MainCalendarViewController.swift */,
+				16BEC1F31A9B246500BC53DD /* MainViewController.swift */,
+				16BEC1F51A9B254900BC53DD /* partnerViewController.swift */,
+				16BEC1F71A9B255500BC53DD /* phonecallViewController.swift */,
+				16BEC1F91A9B258C00BC53DD /* opportunityViewController.swift */,
+			);
+			name = VC;
+			sourceTree = "<group>";
+		};
+		16BEC1C11A9B211C00BC53DD /* menu */ = {
+			isa = PBXGroup;
+			children = (
+				16BEC1C21A9B211C00BC53DD /* CustomMenuController.swift */,
+				16BEC1C31A9B211C00BC53DD /* DrawerMenuController.swift */,
+				16BEC1C41A9B211C00BC53DD /* DrawerMenuExplain.swift */,
+			);
+			path = menu;
+			sourceTree = "<group>";
+		};
+		16BEC1C81A9B212C00BC53DD /* CVCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				16BEC1C91A9B212C00BC53DD /* CVCalendarContentDelegate.swift */,
+				16BEC1CA1A9B212C00BC53DD /* CVCalendarContentViewController.swift */,
+				16BEC1CB1A9B212C00BC53DD /* CVCalendarDayView.swift */,
+				16BEC1CC1A9B212C00BC53DD /* CVCalendarDayViewControlCoordinator.swift */,
+				16BEC1CD1A9B212C00BC53DD /* CVCalendarManager.swift */,
+				16BEC1CE1A9B212C00BC53DD /* CVCalendarMenuView.swift */,
+				16BEC1CF1A9B212C00BC53DD /* CVCalendarMonthContentView.swift */,
+				16BEC1D01A9B212C00BC53DD /* CVCalendarMonthView.swift */,
+				16BEC1D11A9B212C00BC53DD /* CVCalendarRenderer.swift */,
+				16BEC1D21A9B212C00BC53DD /* CVCalendarView.swift */,
+				16BEC1D31A9B212C00BC53DD /* CVCalendarViewAnimator.swift */,
+				16BEC1D41A9B212C00BC53DD /* CVCalendarViewAnimatorDelegate.swift */,
+				16BEC1D51A9B212C00BC53DD /* CVCalendarViewAppearance.swift */,
+				16BEC1D61A9B212C00BC53DD /* CVCalendarViewAppearanceDelegate.swift */,
+				16BEC1D71A9B212C00BC53DD /* CVCalendarViewDelegate.swift */,
+				16BEC1D81A9B212C00BC53DD /* CVCalendarWeekContentRecovery.swift */,
+				16BEC1D91A9B212C00BC53DD /* CVCalendarWeekContentView.swift */,
+				16BEC1DA1A9B212C00BC53DD /* CVCalendarWeekView.swift */,
+				16BEC1DB1A9B212C00BC53DD /* CVCircleView.swift */,
+				16BEC1DC1A9B212C00BC53DD /* CVDate.swift */,
+			);
+			path = CVCalendar;
+			sourceTree = "<group>";
+		};
+		16D7125B1A9DA9E80051D0FA /* swiftproto */ = {
+			isa = PBXGroup;
+			children = (
+				16D7125C1A9DA9E80051D0FA /* Couchbasesrv.pb.swift */,
+				16D7125D1A9DA9E80051D0FA /* Nosqldb.pb.swift */,
+				16D7125E1A9DA9E80051D0FA /* Packmsg.pb.swift */,
+				16D7125F1A9DA9E80051D0FA /* Xkcrm.pb.swift */,
+			);
+			path = swiftproto;
+			sourceTree = "<group>";
+		};
+		16D712641A9DA9F00051D0FA /* runtime-pb-swift */ = {
+			isa = PBXGroup;
+			children = (
+				16D712651A9DA9F00051D0FA /* AbstractMessage.swift */,
+				16D712661A9DA9F00051D0FA /* CodedInputStream.swift */,
+				16D712671A9DA9F00051D0FA /* CodedOutputStream.swift */,
+				16D712681A9DA9F00051D0FA /* ConcreateExtensionField.swift */,
+				16D712691A9DA9F00051D0FA /* ExtendableMessage.swift */,
+				16D7126A1A9DA9F00051D0FA /* ExtensionRegistry.swift */,
+				16D7126B1A9DA9F00051D0FA /* Field.swift */,
+				16D7126C1A9DA9F00051D0FA /* GeneratedMessage.swift */,
+				16D7126D1A9DA9F00051D0FA /* RingBuffer.swift */,
+				16D7126E1A9DA9F00051D0FA /* UnknownFieldSet.swift */,
+				16D7126F1A9DA9F00051D0FA /* UnknownFieldSetBuilder.swift */,
+				16D712701A9DA9F00051D0FA /* WireFormat.swift */,
+			);
+			path = "runtime-pb-swift";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1694EFFD1A933B9700AA2E99 /* xkcrm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1694F01D1A933B9700AA2E99 /* Build configuration list for PBXNativeTarget "xkcrm" */;
+			buildPhases = (
+				1694EFFA1A933B9700AA2E99 /* Sources */,
+				1694EFFB1A933B9700AA2E99 /* Frameworks */,
+				1694EFFC1A933B9700AA2E99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = xkcrm;
+			productName = xkcrm;
+			productReference = 1694EFFE1A933B9700AA2E99 /* xkcrm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1694F0121A933B9700AA2E99 /* xkcrmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1694F0201A933B9700AA2E99 /* Build configuration list for PBXNativeTarget "xkcrmTests" */;
+			buildPhases = (
+				1694F00F1A933B9700AA2E99 /* Sources */,
+				1694F0101A933B9700AA2E99 /* Frameworks */,
+				1694F0111A933B9700AA2E99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1694F0151A933B9700AA2E99 /* PBXTargetDependency */,
+			);
+			name = xkcrmTests;
+			productName = xkcrmTests;
+			productReference = 1694F0131A933B9700AA2E99 /* xkcrmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1694EFF61A933B9700AA2E99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = wangxiaoqing;
+				TargetAttributes = {
+					1694EFFD1A933B9700AA2E99 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					1694F0121A933B9700AA2E99 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 1694EFFD1A933B9700AA2E99;
+					};
+				};
+			};
+			buildConfigurationList = 1694EFF91A933B9700AA2E99 /* Build configuration list for PBXProject "xkcrm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1694EFF51A933B9700AA2E99;
+			productRefGroup = 1694EFFF1A933B9700AA2E99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1694EFFD1A933B9700AA2E99 /* xkcrm */,
+				1694F0121A933B9700AA2E99 /* xkcrmTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1694EFFC1A933B9700AA2E99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1694F0091A933B9700AA2E99 /* Main.storyboard in Resources */,
+				1694F00E1A933B9700AA2E99 /* LaunchScreen.xib in Resources */,
+				1694F00B1A933B9700AA2E99 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1694F0111A933B9700AA2E99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1694EFFA1A933B9700AA2E99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16D712611A9DA9E80051D0FA /* Nosqldb.pb.swift in Sources */,
+				16D712621A9DA9E80051D0FA /* Packmsg.pb.swift in Sources */,
+				16BEC1E11A9B212C00BC53DD /* CVCalendarManager.swift in Sources */,
+				16BEC1F61A9B254900BC53DD /* partnerViewController.swift in Sources */,
+				16BEC1EF1A9B212C00BC53DD /* CVCircleView.swift in Sources */,
+				16BEC1FE1A9C479100BC53DD /* NavTableViewCell.swift in Sources */,
+				16BEC1E61A9B212C00BC53DD /* CVCalendarView.swift in Sources */,
+				16D712751A9DA9F00051D0FA /* ExtendableMessage.swift in Sources */,
+				16D7127C1A9DA9F00051D0FA /* WireFormat.swift in Sources */,
+				16BEC1E81A9B212C00BC53DD /* CVCalendarViewAnimatorDelegate.swift in Sources */,
+				16BEC1C51A9B211C00BC53DD /* CustomMenuController.swift in Sources */,
+				16D712771A9DA9F00051D0FA /* Field.swift in Sources */,
+				1694F0061A933B9700AA2E99 /* ViewController.swift in Sources */,
+				16D712831A9DB0CB0051D0FA /* LeadTableViewCell.swift in Sources */,
+				16D712601A9DA9E80051D0FA /* Couchbasesrv.pb.swift in Sources */,
+				16D712791A9DA9F00051D0FA /* RingBuffer.swift in Sources */,
+				16D7127B1A9DA9F00051D0FA /* UnknownFieldSetBuilder.swift in Sources */,
+				16BEC1F21A9B216B00BC53DD /* MainCalendarViewController.swift in Sources */,
+				16BEC1F01A9B212C00BC53DD /* CVDate.swift in Sources */,
+				16D712781A9DA9F00051D0FA /* GeneratedMessage.swift in Sources */,
+				16BEC1EC1A9B212C00BC53DD /* CVCalendarWeekContentRecovery.swift in Sources */,
+				16BEC1E01A9B212C00BC53DD /* CVCalendarDayViewControlCoordinator.swift in Sources */,
+				16BEC1EB1A9B212C00BC53DD /* CVCalendarViewDelegate.swift in Sources */,
+				16BEC1EE1A9B212C00BC53DD /* CVCalendarWeekView.swift in Sources */,
+				16BEC1B91A9B18DA00BC53DD /* LeadViewController.swift in Sources */,
+				16BEC1F41A9B246500BC53DD /* MainViewController.swift in Sources */,
+				16BEC1DD1A9B212C00BC53DD /* CVCalendarContentDelegate.swift in Sources */,
+				16BEC1DF1A9B212C00BC53DD /* CVCalendarDayView.swift in Sources */,
+				16BEC1DE1A9B212C00BC53DD /* CVCalendarContentViewController.swift in Sources */,
+				16D712741A9DA9F00051D0FA /* ConcreateExtensionField.swift in Sources */,
+				16BEC1E31A9B212C00BC53DD /* CVCalendarMonthContentView.swift in Sources */,
+				16BEC1C61A9B211C00BC53DD /* DrawerMenuController.swift in Sources */,
+				16D7127A1A9DA9F00051D0FA /* UnknownFieldSet.swift in Sources */,
+				16BEC1E21A9B212C00BC53DD /* CVCalendarMenuView.swift in Sources */,
+				16BEC1EA1A9B212C00BC53DD /* CVCalendarViewAppearanceDelegate.swift in Sources */,
+				16D712631A9DA9E80051D0FA /* Xkcrm.pb.swift in Sources */,
+				16BEC1FA1A9B258C00BC53DD /* opportunityViewController.swift in Sources */,
+				16BEC1E41A9B212C00BC53DD /* CVCalendarMonthView.swift in Sources */,
+				16BEC1C71A9B211C00BC53DD /* DrawerMenuExplain.swift in Sources */,
+				16D712731A9DA9F00051D0FA /* CodedOutputStream.swift in Sources */,
+				16BEC1E71A9B212C00BC53DD /* CVCalendarViewAnimator.swift in Sources */,
+				16D712721A9DA9F00051D0FA /* CodedInputStream.swift in Sources */,
+				16BEC1E51A9B212C00BC53DD /* CVCalendarRenderer.swift in Sources */,
+				1694F0041A933B9700AA2E99 /* AppDelegate.swift in Sources */,
+				16D712761A9DA9F00051D0FA /* ExtensionRegistry.swift in Sources */,
+				16D712711A9DA9F00051D0FA /* AbstractMessage.swift in Sources */,
+				16BEC1C01A9B1D3600BC53DD /* MainNavViewController.swift in Sources */,
+				16BEC1E91A9B212C00BC53DD /* CVCalendarViewAppearance.swift in Sources */,
+				16BEC1F81A9B255500BC53DD /* phonecallViewController.swift in Sources */,
+				16BEC1ED1A9B212C00BC53DD /* CVCalendarWeekContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1694F00F1A933B9700AA2E99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1694F01A1A933B9700AA2E99 /* xkcrmTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1694F0151A933B9700AA2E99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1694EFFD1A933B9700AA2E99 /* xkcrm */;
+			targetProxy = 1694F0141A933B9700AA2E99 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1694F0071A933B9700AA2E99 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1694F0081A933B9700AA2E99 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1694F00C1A933B9700AA2E99 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1694F00D1A933B9700AA2E99 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1694F01B1A933B9700AA2E99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1694F01C1A933B9700AA2E99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1694F01E1A933B9700AA2E99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = xkcrm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1694F01F1A933B9700AA2E99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = xkcrm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1694F0211A933B9700AA2E99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = xkcrmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/xkcrm.app/xkcrm";
+			};
+			name = Debug;
+		};
+		1694F0221A933B9700AA2E99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = xkcrmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/xkcrm.app/xkcrm";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1694EFF91A933B9700AA2E99 /* Build configuration list for PBXProject "xkcrm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1694F01B1A933B9700AA2E99 /* Debug */,
+				1694F01C1A933B9700AA2E99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1694F01D1A933B9700AA2E99 /* Build configuration list for PBXNativeTarget "xkcrm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1694F01E1A933B9700AA2E99 /* Debug */,
+				1694F01F1A933B9700AA2E99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1694F0201A933B9700AA2E99 /* Build configuration list for PBXNativeTarget "xkcrmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1694F0211A933B9700AA2E99 /* Debug */,
+				1694F0221A933B9700AA2E99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1694EFF61A933B9700AA2E99 /* Project object */;
+}
